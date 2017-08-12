@@ -1,0 +1,136 @@
+body {
+  margin: auto;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+}
+
+
+
+.verticalLine {
+  border-left: thick solid white;
+}
+
+td .img-mapa {
+  width: 100%;
+  height: 100%;
+}
+
+td #ul-flags {
+  list-style: none;
+}
+
+td #ul-flags li {
+  float: left;
+  position: relative;
+}
+
+td #ul-flags li .img-flags {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  transition: all 0.5s;
+} 
+
+td #ul-flags li #h3-1 {
+  position: absolute;
+  margin: 10px;
+  top: 32%;
+  left: 7%;
+  z-index: -1;
+}
+ol {
+  text-align: center;
+  position: relative;
+  margin-top: -19px; 
+  margin-left: -29px;
+}
+
+ol li {
+  float:left;
+  list-style: none;
+}
+
+ol li .img-star {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+
+}
+
+#france {
+  text-align: center;
+  position: relative;
+  margin-top: -19px; 
+  margin-left: -7px;
+}
+#france li {
+  list-style: none;
+  float: left;
+}
+
+#france li .img-star {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+}
+
+td #ul-flags li #h3-2 {
+  position: absolute;
+  margin: 10px;
+  top: 33%;
+  left: 19%;
+  z-index: -1;
+}
+td #ul-flags li #h3-3 {
+  position: absolute;
+  margin: 10px;
+  top: 33%;
+  left: 8%;
+  z-index: -1;
+}
+td #ul-flags li .img-flags:hover {
+  opacity: 0.1;
+} 
+
+td table tr td .line-2 {
+  position: relative;
+  width: 200px;
+  border: 12px solid black;
+  top: 0%;
+  left: 0%;
+  margin: 10px;
+  border-radius: 11%;
+} 
+#ul-interest li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+
+#ul-interest li img {
+  width: 85px;
+  height: 85px;
+}
+
+#ul-interest2 {
+  margin-left: -60px;
+}
+
+#ul-interest2 li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+
+#ul-interest2 li img {
+  width: 85px;
+  height: 85px;
+}
+
