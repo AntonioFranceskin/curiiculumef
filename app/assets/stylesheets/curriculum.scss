@@ -236,7 +236,8 @@ body{
 .sun .star {
   width: 250px;
   height: 250px;
-  background: url(http://www.waynedunkley.com/img/solar_system/sun.png) no-repeat;
+  background: url(sun.jpg) no-repeat;
+   // background: url(http://www.waynedunkley.com/img/solar_system/sun.png) no-repeat;
   background-size: cover;
   border-radius: 250px;
   margin: 0 auto;
@@ -270,6 +271,7 @@ body{
   width:15px;
   height:15px;
   background-image: url(http://www.waynedunkley.com/img/solar_system/mercury.png);
+  background-size: cover;
   animation: anti-spin 12s infinite linear;
 }
 .mercury .shadow {
