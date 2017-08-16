@@ -5,9 +5,6 @@ body {
   padding: 0;
 }
 
-.tabla1 {
-
-}
 
 td .img-mapa {
   width: 100%;
@@ -149,7 +146,7 @@ body{
   100%   { transform: rotate(-360deg); }
 }
 @keyframes shadow {
-  0% { background-position: 130% 0%; }
+  0% { background-position: 150% 0%; }
   33%{ background-position: 50% 0%; }
   55% { background-position: 0% 0%; }
   80%{ background-position: -50% 0%; }
@@ -213,7 +210,7 @@ body{
   margin: 0 auto;
   display:block;
   margin-top: 5px;
-  perspective: 1000px;
+  perspective: 600px;
   perspective-origin: 60% 50%;
   transform: rotate(-10deg);
   
@@ -325,10 +322,10 @@ body{
 }
 .jupiter {
   position: absolute;
-  width: 1100px;
+  width: 700px;
   z-index:6;
   animation: orbitjupiter 50s infinite linear;
-  top: -64px;
+  top: 0px;
 }
 .jupiter .planet {
   width:128px;
