@@ -180,13 +180,7 @@ td table tr td .line-2 {
   99% { z-index:-6; }
   100%   { z-index:6; transform: rotateY(360deg); }
 }
-@keyframes orbitsaturn {
-  0% { z-index:7; transform: rotateY(270); }
-  49% { z-index:7; }
-  50% { z-index:-7; }
-  99% { z-index:-7; }
-  100%   { z-index:7; transform: rotateY(360deg); }
-}
+
 /* Keep planet image flat */
 @keyframes anti-spin {
   from { transform: rotateY(0); }
@@ -209,7 +203,6 @@ td table tr td .line-2 {
   
 }
 .wrapper > div {
-  background-image: url("fondo8.jpg");border:3px solid blue;
   position: relative;
   margin: 0 auto;
   transform-style: preserve-3d;
@@ -226,7 +219,6 @@ td table tr td .line-2 {
   width: 250px;
   height: 250px;
   background: url(sun.jpg) no-repeat;
-   // background: url(http://www.waynedunkley.com/img/solar_system/sun.png) no-repeat;
   background-size: cover;
   border-radius: 250px;
   margin: 0 auto;
@@ -314,6 +306,9 @@ td table tr td .line-2 {
 .mars .shadow {
   animation: shadow 30s infinite linear;
 }
+
+
+
 .jupiter {
   position: absolute;
   width: 700px;
@@ -321,6 +316,7 @@ td table tr td .line-2 {
   animation: orbitjupiter 50s infinite linear;
   top: 0px;
 }
+
 .jupiter .planet {
   width:128px;
   height:128px;
